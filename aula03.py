@@ -18,9 +18,7 @@ simples = 'Gosto de brigadeiro'
 
 duplas = "Gosto de brigadeiro"
 
-triplas = '''Gosto 
-de 
-brigadeiro''' 
+triplas = '''Gosto de brigadeiro''' 
 # geralmente usada quando a string tem mais de uma linha.
 
 #boolean
@@ -28,3 +26,5 @@ verdadeiro = True
 falso = False
 
 
+#Podemos verificar o tipo de dado de uma variável usando a função type()
+print(type(inteiro))    # <class 'int'>     
