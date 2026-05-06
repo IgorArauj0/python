@@ -41,3 +41,8 @@ print(espacoTexto.strip()) # Remove os espaços em branco do início e do fim da
 frase3 = "Python é uma linguagem de programação incrível!"
 palavras = frase3.split() # Divide a frase em palavras usando o espaço como delimitador
 print(palavras) # ['Python', 'é', 'uma', 'linguagem', 'de', 'programação', 'incrível!']
+
+
+#Cortando os asteriscos do início e do fim da string usando strip()
+texto = "*******Python!*******"
+print(texto.strip("*")) # Remove os asteriscos do início e do fim da string
